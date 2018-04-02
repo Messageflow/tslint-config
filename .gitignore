@@ -16,11 +16,5 @@ yarn-error.log*
 demo*/
 node_modules/
 
-# .js files
-*.js
-*.jsx
-*.d.ts*
-gulpfile*.js
-
 # Do not ignore
 !**/json.d.ts

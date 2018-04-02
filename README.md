@@ -14,7 +14,7 @@
 [![Code of Conduct][coc-badge]][coc-url]
 
 [![Dependency Status][daviddm-badge]][daviddm-url]
-[![NSP Status][nsp-badge]][nsp-url]
+<!-- [![NSP Status][nsp-badge]][nsp-url] -->
 
 > A [TSLint config][tslint-config-url] based on [Airbnb JavaScript Style Guide][airbnb-javascript-style-guide-url] for [Messageflow][messageflow-url]
 
@@ -55,7 +55,7 @@ In `tslint.json`
 
 ## License
 
-[MIT License](https://Messageflow.mit-license.org/) © Rong Sen Ng
+[MIT License](https://motss.mit-license.org/) © Rong Sen Ng
 
 <!-- References -->
 [typescript-url]: https://github.com/Microsoft/TypeScript
@@ -78,15 +78,15 @@ In `tslint.json`
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 
 [daviddm-badge]: https://img.shields.io/david/Messageflow/tslint-config.svg?style=flat-square
-[nsp-badge]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5/badge?style=flat-square
+<!-- [nsp-badge]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5/badge?style=flat-square -->
 
 <!-- Links -->
 [nodei-url]: https://nodei.co/npm/@messageflow/tslint-config
 
 [version-url]: https://www.npmjs.com/package/@messageflow/tslint-config
 [downloads-url]: http://www.npmtrends.com/@messageflow/tslint-config
-[mit-license-url]: https://github.com/Messageflow/Messageflow/tslint-config/blob/master/LICENSE
-[coc-url]: https://github.com/Messageflow/Messageflow/tslint-config/blob/master/CODE_OF_CONDUCT.md
+[mit-license-url]: https://github.com/Messageflow/tslint-config/blob/master/LICENSE
+[coc-url]: https://github.com/Messageflow/tslint-config/blob/master/CODE_OF_CONDUCT.md
 
 [daviddm-url]: https://david-dm.org/Messageflow/tslint-config
-[nsp-url]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5
+<!-- [nsp-url]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5 -->
