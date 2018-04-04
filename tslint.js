@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
+    'tslint:recommended',
     'tslint-config-airbnb',
     'tslint-immutable',
-    'tslint:recommended',
   ],
   rules: {
     align: [true, 'members', 'parameters', 'statements'],
