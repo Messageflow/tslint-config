@@ -20,6 +20,10 @@
     "email": "wes.ngrongsen@gmail.com",
     "url": "https://github.com/motss"
   },
+  "files": [
+    "tslint.js",
+    "tslint.mjs"
+  ],
   "main": "./tslint.js",
   "repository": {
     "type": "git",
@@ -28,7 +32,7 @@
   "scripts": {},
   "dependencies": {
     "tslint-config-airbnb": "^5.8.0",
-    "tslint-immutable": "^4.5.3"
+    "tslint-immutable": "^4.5.4"
   },
   "devDependencies": {},
   "engines": {

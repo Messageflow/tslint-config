@@ -23,6 +23,8 @@
 - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
+    - [tslint.json](#tslintjson)
+    - [[Optional] tslint.prod.json](#optional-tslintprodjson)
   - [Rules](#rules)
 - [License](#license)
 
@@ -31,19 +33,33 @@
 ### Install
 
 ```sh
-# Install via NPM
-$ npm install --save @messageflow/tslint-config
+# Install via NPM as one of the `devDependencies`
+$ npm install --save-dev @messageflow/tslint-config
 ```
 
 ### Usage
 
-In `tslint.json`
+#### tslint.json
 
 ```json
 {
   "extends": [
     "@messageflow/tslint-config"
-  ]
+  ],
+}
+```
+
+#### [Optional] tslint.prod.json
+
+```js
+{
+  "extends": [
+    "@messageflow/tslint-config"
+  ],
+  "rules": {
+    // No `debugger` in production mode
+    "no-debugger": true
+  }
 }
 ```
 
