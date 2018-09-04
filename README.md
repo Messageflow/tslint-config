@@ -6,20 +6,24 @@
 
 <hr />
 
-[![NPM][nodei-badge]][nodei-url]
-
 [![Version][version-badge]][version-url]
-[![Downloads][downloads-badge]][downloads-url]
+[![Node version][node-version-badge]][node-version-url]
 [![MIT License][mit-license-badge]][mit-license-url]
-[![Code of Conduct][coc-badge]][coc-url]
+
+[![Downloads][downloads-badge]][downloads-url]
+[![Total downloads][total-downloads-badge]][downloads-url]
+[![Packagephobia][packagephobia-badge]][packagephobia-url]
+[![Bundlephobia][bundlephobia-badge]][bundlephobia-url]
 
 [![Dependency Status][daviddm-badge]][daviddm-url]
-<!-- [![NSP Status][nsp-badge]][nsp-url] -->
+
+[![Code of Conduct][coc-badge]][coc-url]
 
 > A [TSLint config][tslint-config-url] based on [Airbnb JavaScript Style Guide][airbnb-javascript-style-guide-url] for [Messageflow][messageflow-url]
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
@@ -71,7 +75,7 @@ $ npm install --save-dev @messageflow/tslint-config
 
 ## License
 
-[MIT License](https://motss.mit-license.org/) © Rong Sen Ng
+[MIT License](https://motss.mit-license.org) © Rong Sen Ng
 
 <!-- References -->
 [typescript-url]: https://github.com/Microsoft/TypeScript
@@ -86,23 +90,28 @@ $ npm install --save-dev @messageflow/tslint-config
 [tslint-immutable-url]: https://github.com/jonaskello/tslint-immutable
 
 <!-- Badges -->
-[nodei-badge]: https://nodei.co/npm/@messageflow/tslint-config.png?downloads=true&downloadRank=true&stars=true
+[version-badge]: https://flat.badgen.net/npm/v/@messageflow/tslint-config
+[node-version-badge]: https://flat.badgen.net/npm/node/@messageflow/tslint-config
+[mit-license-badge]: https://flat.badgen.net/npm/license/@messageflow/tslint-config
 
-[version-badge]: https://img.shields.io/npm/v/@messageflow/tslint-config.svg?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dm/@messageflow/tslint-config.svg?style=flat-square
-[mit-license-badge]: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[downloads-badge]: https://flat.badgen.net/npm/dm/@messageflow/tslint-config
+[total-downloads-badge]: https://flat.badgen.net/npm/dt/@messageflow/tslint-config?label=total%20downloads
+[packagephobia-badge]: https://flat.badgen.net/packagephobia/install/@messageflow/tslint-config
+[bundlephobia-badge]: https://flat.badgen.net/bundlephobia/minzip/@messageflow/tslint-config
 
-[daviddm-badge]: https://img.shields.io/david/Messageflow/tslint-config.svg?style=flat-square
-<!-- [nsp-badge]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5/badge?style=flat-square -->
+[daviddm-badge]: https://flat.badgen.net/david/dep/messageflow/tslint-config
+
+[coc-badge]: https://flat.badgen.net/badge/code%20of/conduct/pink
 
 <!-- Links -->
-[nodei-url]: https://nodei.co/npm/@messageflow/tslint-config
-
 [version-url]: https://www.npmjs.com/package/@messageflow/tslint-config
-[downloads-url]: http://www.npmtrends.com/@messageflow/tslint-config
+[node-version-url]: https://nodejs.org/en/download
 [mit-license-url]: https://github.com/Messageflow/tslint-config/blob/master/LICENSE
-[coc-url]: https://github.com/Messageflow/tslint-config/blob/master/CODE_OF_CONDUCT.md
 
-[daviddm-url]: https://david-dm.org/Messageflow/tslint-config
-<!-- [nsp-url]: https://nodesecurity.io/orgs/messageflow/projects/374cb503-b2d9-43e7-88d4-15f3cf55c0b5 -->
+[downloads-url]: https://www.npmtrends.com/@messageflow/tslint-config
+[packagephobia-url]: https://packagephobia.now.sh/result?p=%40messageflow%2Ftslint-config
+[bundlephobia-url]: https://bundlephobia.com/result?p=@messageflow/tslint-config
+
+[daviddm-url]: https://david-dm.org/messageflow/tslint-config
+
+[coc-url]: https://github.com/messageflow/tslint-config/blob/master/CODE_OF_CONDUCT.md
