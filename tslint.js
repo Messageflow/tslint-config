@@ -36,5 +36,6 @@ module.exports = {
         esSpecCompliant: true,
       },
     ],
+    "quotemark": [true, "single", "jsx-double"]
   },
 };
