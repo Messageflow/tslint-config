@@ -7,6 +7,16 @@ module.exports = {
   rules: {
     align: [true, 'members', 'parameters', 'statements'],
     'array-type': false,
+    "function-name": [
+      true,
+      {
+        "method-regex": "^[a-z][\\w\\d]+$",
+        "private-method-regex": "^_+[a-z][\\w\\d]+$",
+        "protected-method-regex": "^[a-z][\\w\\d]+$",
+        "static-method-regex": "^[A-Z_\\d]+$",
+        "function-regex": "^[a-z][\\w\\d]+$"
+      }
+    ],
     'import-name': false,
     'interface-name': [true, 'never-prefix'],
     'no-console': false,
@@ -36,6 +46,14 @@ module.exports = {
         esSpecCompliant: true,
       },
     ],
-    "quotemark": [true, "single", "jsx-double"]
+    "quotemark": [true, "single", "jsx-double"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-snake-case"
+    ]
   },
 };

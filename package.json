@@ -21,8 +21,7 @@
     "url": "https://github.com/motss"
   },
   "files": [
-    "tslint.js",
-    "tslint.mjs"
+    "tslint.js"
   ],
   "main": "./tslint.js",
   "repository": {
